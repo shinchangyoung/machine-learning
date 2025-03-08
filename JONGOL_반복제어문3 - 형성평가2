@@ -1,0 +1,10 @@
+num = int(input("1부터 100까지의 정수를 입력하세요: "))
+
+if num < 1 or num > 100:
+    print("1부터 100 사이의 정수를 입력해주세요.")
+else:
+    for i in range(1, 101):
+        if i % num == 0:
+            print(i, end=" ")
+            if i % 10 == 0:
+                break
