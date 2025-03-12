@@ -22,3 +22,5 @@
     <td>loc[0], loc[0:3]</td>
   </tr>
 </table>
+
+iloc: integer location의 약자
