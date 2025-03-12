@@ -25,7 +25,8 @@
 
 iloc: integer location의 약자
 
-
+예시
+```py
 import pandas as pd
 
 # 예시 DataFrame
@@ -42,4 +43,45 @@ print(sample_df.iloc[0:3, 0:2]) # 0~2번 행, 0~1번 열
 print(sample_df.loc['a'])       # 'a' 행
 print(sample_df.loc[:, 'col_1'])# 'col_1' 열
 print(sample_df.loc['a':'c', 'col_1':'col_2']) # 'a'~'c' 행, 'col_1'~'col_2' 열
+```
+출력
+```py
+# iloc[0]
+col_1    10
+col_2    15
+Name: a, dtype: int64
 
+# iloc[:, 0]
+a    10
+b    20
+c    30
+d    40
+e    50
+Name: col_1, dtype: int64
+
+# iloc[0:3, 0:2]
+   col_1  col_2
+a     10     15
+b     20     25
+c     30     35
+
+# loc['a']
+col_1    10
+col_2    15
+Name: a, dtype: int64
+
+# loc[:, 'col_1']
+a    10
+b    20
+c    30
+d    40
+e    50
+Name: col_1, dtype: int64
+
+# loc['a':'c', 'col_1':'col_2']
+   col_1  col_2
+a     10     15
+b     20     25
+c     30     35
+
+```
