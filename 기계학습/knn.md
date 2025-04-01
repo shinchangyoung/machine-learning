@@ -10,9 +10,7 @@ K-최근접 이웃(KNN) 모델을 사용하여 학습
 2️⃣ 라이브러리 및 데이터 불러오기
 필요한 라이브러리를 불러와!
 
-python
-복사
-편집
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,7 +19,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
-데이터 불러오기
+```py
 
 python
 복사
