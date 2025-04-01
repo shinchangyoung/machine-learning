@@ -1,3 +1,4 @@
+```
 📌 예제: 학생의 시험 합격 여부 예측 (KNN 활용)
 📌 문제 정의: 학생의 공부 시간과 수업 참여율을 바탕으로 시험 합격 여부(합격=1, 불합격=0)를 예측하는 문제
 
@@ -9,7 +10,7 @@ K-최근접 이웃(KNN) 모델을 사용하여 학습
 2️⃣ 라이브러리 및 데이터 불러오기
 필요한 라이브러리를 불러와!
 
-```py
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,18 +22,17 @@ from sklearn.metrics import accuracy_score
 
 # 가상의 학생 데이터
 df = pd.read_csv("student_data.csv")  
-```
+
 
 
 3️⃣ 데이터 확인하기
 데이터가 어떻게 생겼는지 확인!
 
 
-py```
 print(df.head())  # 처음 5개 데이터 확인
 print(df.info())  # 데이터 타입 및 결측치 확인
 print(df.describe())  # 기초 통계 정보 확인
-```
+
 📌 예제 데이터 (student_data.csv)
 
 공부시간(hours)	수업 참여율(%)	시험 합격 여부(target)
@@ -44,9 +44,9 @@ print(df.describe())  # 기초 통계 정보 확인
 4️⃣ 목표값에서 고윳값 확인하기
 
 
-py```
+
 print(df['target'].value_counts())  # 합격(1), 불합격(0) 개수 확인
-```
+
 📌 예제 출력
 1    200  # 합격한 학생 200명
 0    200  # 불합격한 학생 200명
@@ -54,55 +54,49 @@ print(df['target'].value_counts())  # 합격(1), 불합격(0) 개수 확인
 ✅ 합격(1)과 불합격(0)이 균형적으로 분포됨!
 
 5️⃣ 전처리: 결측치 처리하기
-py```
+
 print(df.isnull().sum())  # 결측치 개수 확인
 df = df.dropna()  # 결측치 제거
-```
+
 
 ✅ 결측치가 있다면 평균값으로 채우기
 
-py```
+
 df.fillna(df.mean(), inplace=True)
-```
+
 
 6️⃣ 스케일링 (정규화/표준화)
 KNN은 거리 기반 알고리즘이므로 데이터 크기를 맞춰야 해!
 
-py```
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(df[['공부시간(hours)', '수업 참여율(%)']])
-```
 
 ➡️ 모든 값이 평균 0, 표준편차 1로 변환됨!
 
 7️⃣ 모델링 및 예측, 평가하기
 📌 데이터 분리 (80% 학습, 20% 테스트)
 
-py```
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, df["target"], test_size=0.2, random_state=42)
-```
+
 
 📌 모델 학습
 
-py```
+
 knn = KNeighborsClassifier(n_neighbors=5)  # K=5 설정
 knn.fit(X_train, y_train)  # 모델 학습
-```
+
 
 📌 예측 및 평가 (정확도 확인)
 
-py```
 y_pred = knn.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"KNN 모델 정확도: {accuracy:.2f}")
-```
 
 ✅ 모델 정확도 예제 출력
 KNN 모델 정확도: 0.87
 8️⃣ 하이퍼파라미터 튜닝 (K값 조정)
 K값을 조정해서 최적의 값을 찾자!
 
-py```
 accuracies = []
 for k in range(1, 21):
     knn = KNeighborsClassifier(n_neighbors=k)
@@ -116,7 +110,7 @@ plt.xlabel("K 값")
 plt.ylabel("정확도")
 plt.title("K 값에 따른 정확도 변화")
 plt.show()
-```
+
 
 📌 K 값에 따른 정확도 변화를 보고 최적의 k를 선택!
 ✅ 보통 적절한 K값은 3~7 사이에서 결정됨!
@@ -168,9 +162,9 @@ ChatGPT의 말:
 1️⃣ 결측치 확인
 먼저 데이터에서 어떤 컬럼에 결측치가 있는지 확인해야 해.
 
-py```
+
 print(df.isnull().sum())  # 각 컬럼별 결측치 개수 확인
-```
+
 
 📌 예제 출력
 
