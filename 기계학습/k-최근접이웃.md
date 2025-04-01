@@ -24,8 +24,10 @@ py```
 df = pd.read_csv("student_data.csv")  # 가상의 학생 데이터
 ```
 
+md```
 3️⃣ 데이터 확인하기
 데이터가 어떻게 생겼는지 확인!
+````
 
 py```
 print(df.head())  # 처음 5개 데이터 확인
