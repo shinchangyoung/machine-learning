@@ -18,16 +18,15 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
+
+# 가상의 학생 데이터
+df = pd.read_csv("student_data.csv")  
 ```
 
-py```
-df = pd.read_csv("student_data.csv")  # 가상의 학생 데이터
-```
 
-md```
 3️⃣ 데이터 확인하기
 데이터가 어떻게 생겼는지 확인!
-````
+
 
 py```
 print(df.head())  # 처음 5개 데이터 확인
@@ -43,6 +42,8 @@ print(df.describe())  # 기초 통계 정보 확인
 8	85	1
 2	40	0
 4️⃣ 목표값에서 고윳값 확인하기
+
+
 py```
 print(df['target'].value_counts())  # 합격(1), 불합격(0) 개수 확인
 ```
@@ -153,10 +154,6 @@ print("예측 결과:", "합격" if prediction[0] == 1 else "불합격")
 9️⃣ 이해하기: 새로운 데이터 예측 실습
 
 ✅ KNN 모델을 활용하여 학생이 시험에 합격할 확률을 예측할 수 있음! 🚀
-
-
-
-
 
 
 
