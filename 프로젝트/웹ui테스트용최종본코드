@@ -1,0 +1,299 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="800" height="800" fill="#f5f5f5"/>
+  
+  <!-- 헤더 영역 -->
+  <rect x="0" y="0" width="800" height="60" fill="#3b82f6"/>
+  <text x="30" y="38" font-family="Arial" font-size="22" fill="white" font-weight="bold">재고관리 시스템</text>
+  
+  <!-- 네비게이션 메뉴 -->
+  <rect x="600" y="15" width="80" height="30" rx="5" fill="#1e40af"/>
+  <text x="616" y="35" font-family="Arial" font-size="14" fill="white">대시보드</text>
+  
+  <rect x="690" y="15" width="80" height="30" rx="5" fill="#2563eb"/>
+  <text x="712" y="35" font-family="Arial" font-size="14" fill="white">설정</text>
+  
+  <!-- 인사이트 배너 영역 - 문구 수정됨 -->
+  <rect x="0" y="60" width="800" height="40" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="10" y="65" width="780" height="30" fill="#dbeafe" rx="5"/>
+  <text x="20" y="85" font-family="Arial" font-size="14" font-weight="bold" fill="#1e40af">⚠️ 다가오는 9월엔 공휴일과 50대 남성 고객이 매출을 올려줄 가능성이 큽니다</text>
+  
+  <!-- 사이드바 -->
+  <rect x="0" y="100" width="180" height="700" fill="#ffffff"/>
+  <rect x="0" y="100" width="180" height="700" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- 사이드바 메뉴 아이템 -->
+  <rect x="0" y="140" width="180" height="50" fill="#ffffff"/>
+  <text x="50" y="170" font-family="Arial" font-size="16" fill="#374151">대시보드</text>
+  <rect x="15" y="150" width="25" height="25" rx="5" fill="#e5e7eb"/>
+  <text x="22" y="168" font-family="Arial" font-size="16" fill="#374151">📊</text>
+  
+  <rect x="0" y="190" width="180" height="50" fill="#ffffff"/>
+  <text x="50" y="220" font-family="Arial" font-size="16" fill="#374151">제품 관리</text>
+  <rect x="15" y="200" width="25" height="25" rx="5" fill="#e5e7eb"/>
+  <text x="22" y="218" font-family="Arial" font-size="16" fill="#374151">📦</text>
+  
+  <rect x="0" y="240" width="180" height="50" fill="#ffffff"/>
+  <text x="50" y="270" font-family="Arial" font-size="16" fill="#374151">재고 현황</text>
+  <rect x="15" y="250" width="25" height="25" rx="5" fill="#e5e7eb"/>
+  <text x="22" y="268" font-family="Arial" font-size="16" fill="#374151">🔍</text>
+  
+  <rect x="0" y="290" width="180" height="50" fill="#eff6ff"/>
+  <text x="50" y="320" font-family="Arial" font-size="16" fill="#1e40af">지역 분석</text>
+  <rect x="15" y="300" width="25" height="25" rx="5" fill="#bfdbfe"/>
+  <text x="22" y="318" font-family="Arial" font-size="16" fill="#1e40af">🗺️</text>
+  
+  <rect x="0" y="340" width="180" height="50" fill="#ffffff"/>
+  <text x="50" y="370" font-family="Arial" font-size="16" fill="#374151">거래처 관리</text>
+  <rect x="15" y="350" width="25" height="25" rx="5" fill="#e5e7eb"/>
+  <text x="22" y="368" font-family="Arial" font-size="16" fill="#374151">🏢</text>
+  
+  <rect x="0" y="390" width="180" height="50" fill="#ffffff"/>
+  <text x="50" y="420" font-family="Arial" font-size="16" fill="#374151">통계 분석</text>
+  <rect x="15" y="400" width="25" height="25" rx="5" fill="#e5e7eb"/>
+  <text x="22" y="418" font-family="Arial" font-size="16" fill="#374151">📈</text>
+  
+  <!-- 추가된 메뉴: 고용자 관리 추천 -->
+  <rect x="0" y="440" width="180" height="50" fill="#ffffff"/>
+  <text x="50" y="470" font-family="Arial" font-size="16" fill="#374151">고용자 관리 추천</text>
+  <rect x="15" y="450" width="25" height="25" rx="5" fill="#e5e7eb"/>
+  <text x="22" y="468" font-family="Arial" font-size="16" fill="#374151">👥</text>
+  
+  <!-- 메인 콘텐츠 영역 -->
+  <rect x="180" y="100" width="620" height="700" fill="#ffffff"/>
+  
+  <!-- 페이지 제목 -->
+  <text x="210" y="140" font-family="Arial" font-size="24" fill="#111827" font-weight="bold">지역 군집 분석</text>
+  
+  <!-- 위치 입력 영역 -->
+  <rect x="210" y="160" width="580" height="60" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="230" y="190" font-family="Arial" font-size="16" fill="#374151">내 위치:</text>
+  <rect x="300" y="172" width="340" height="35" rx="5" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="315" y="195" font-family="Arial" font-size="14" fill="#6b7280">서울특별시 강남구 테헤란로 152</text>
+  
+  <rect x="650" y="172" width="60" height="35" rx="5" fill="#3b82f6"/>
+  <text x="665" y="195" font-family="Arial" font-size="14" fill="white">검색</text>
+  
+  <rect x="720" y="172" width="40" height="35" rx="5" fill="#3b82f6"/>
+  <text x="731" y="195" font-family="Arial" font-size="16" fill="white">📍</text>
+  
+  <!-- 지도 영역 -->
+  <rect x="210" y="230" width="580" height="300" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- 강남역, 삼성역, 선릉역 지역의 지도 배경 비주얼 (실제 지도 대신 유사하게 표현) -->
+  <rect x="210" y="230" width="580" height="300" fill="#e2e8f0"/>
+  
+  <!-- 주요 도로망 -->
+  <!-- 테헤란로 -->
+  <path d="M210,350 L790,350" stroke="#cbd5e1" stroke-width="5"/>
+  <text x="220" y="340" font-family="Arial" font-size="12" fill="#64748b">테헤란로</text>
+  
+  <!-- 강남대로 -->
+  <path d="M350,230 L350,530" stroke="#cbd5e1" stroke-width="5"/>
+  <text x="355" y="245" font-family="Arial" font-size="12" fill="#64748b">강남대로</text>
+  
+  <!-- 영동대로 -->
+  <path d="M560,230 L560,530" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="565" y="245" font-family="Arial" font-size="12" fill="#64748b">영동대로</text>
+  
+  <!-- 봉은사로 -->
+  <path d="M210,410 L790,410" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="220" y="425" font-family="Arial" font-size="10" fill="#64748b">봉은사로</text>
+  
+  <!-- 언주로 -->
+  <path d="M650,230 L650,530" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="655" y="245" font-family="Arial" font-size="10" fill="#64748b">언주로</text>
+  
+  <!-- 이면도로 표현 -->
+  <path d="M210,300 L790,300" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M210,380 L790,380" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M210,440 L790,440" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M250,230 L250,530" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M400,230 L400,530" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M450,230 L450,530" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M500,230 L500,530" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M600,230 L600,530" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M700,230 L700,530" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M750,230 L750,530" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- 건물 블록 표현 -->
+  <rect x="260" y="310" width="80" height="30" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="260" y="360" width="80" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="360" y="310" width="30" height="30" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="360" y="360" width="30" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="410" y="255" width="30" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="410" y="360" width="35" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="460" y="310" width="30" height="30" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="510" y="255" width="40" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="510" y="360" width="40" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="570" y="255" width="70" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="610" y="360" width="30" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="660" y="310" width="30" height="30" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="660" y="360" width="80" height="40" fill="#cbd5e1" opacity="0.7"/>
+  <rect x="710" y="255" width="60" height="40" fill="#cbd5e1" opacity="0.7"/>
+  
+  <!-- 지하철역 표시 -->
+  <!-- 강남역 -->
+  <circle cx="350" cy="350" r="10" fill="#3b82f6" stroke="white" stroke-width="2"/>
+  <text x="350" y="350" font-family="Arial" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle">2</text>
+  <text x="330" y="370" font-family="Arial" font-size="12" fill="#1e40af" font-weight="bold">강남역</text>
+  
+  <!-- 삼성역 -->
+  <circle cx="560" cy="350" r="10" fill="#3b82f6" stroke="white" stroke-width="2"/>
+  <text x="560" y="350" font-family="Arial" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle">2</text>
+  <text x="540" y="370" font-family="Arial" font-size="12" fill="#1e40af" font-weight="bold">삼성역</text>
+  
+  <!-- 선릉역 -->
+  <circle cx="500" cy="350" r="10" fill="#3b82f6" stroke="white" stroke-width="2"/>
+  <text x="500" y="350" font-family="Arial" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle">2</text>
+  <text x="480" y="370" font-family="Arial" font-size="12" fill="#1e40af" font-weight="bold">선릉역</text>
+  
+  <!-- 버스정류장 표시 - 텍스트 라벨로 변경 -->
+  
+  <!-- 강남역 버스정류장 -->
+  <text x="300" y="330" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 강남역앞정류장</text>
+  <text x="380" y="320" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 강남역사거리정류장</text>
+  <text x="300" y="390" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 신논현역정류장</text>
+  
+  <!-- 삼성역 버스정류장 -->
+  <text x="540" y="320" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 삼성역정류장</text>
+  <text x="580" y="340" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 삼성중앙정류장</text>
+  <text x="520" y="390" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 봉은사역정류장</text>
+  
+  <!-- 선릉역 버스정류장 -->
+  <text x="440" y="320" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 선릉역정류장</text>
+  <text x="480" y="400" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 선릉남문정류장</text>
+  
+  <!-- 봉은사로 버스정류장 -->
+  <text x="240" y="430" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 역삼역정류장</text>
+  <text x="440" y="430" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 포스코사거리정류장</text>
+  <text x="620" y="430" font-family="Arial" font-size="10" fill="#15803d" font-weight="bold">🚌 코엑스정류장</text>
+  
+  <!-- 군집 영역 -->
+  <!-- 군집 1 - 강남역 주변 (희미하게 표시) -->
+  <circle cx="350" cy="350" r="60" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="390" y="315" font-family="Arial" font-size="14" fill="#1e40af" opacity="0.3">군집 1</text>
+  
+  <!-- 군집 2 - 삼성역 주변 (희미하게 표시) -->
+  <circle cx="560" cy="350" r="55" fill="#10b981" opacity="0.1" stroke="#10b981" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="600" y="315" font-family="Arial" font-size="14" fill="#047857" opacity="0.3">군집 2</text>
+  
+  <!-- 군집 3 - 선릉역 주변 (활성화된 상태로 표시) -->
+  <circle cx="500" cy="350" r="50" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="520" y="400" font-family="Arial" font-size="14" fill="#b45309" font-weight="bold">군집 3</text>
+  
+  <!-- 현재 위치 표시 -->
+  <circle cx="450" cy="350" r="8" fill="#ef4444"/>
+  <circle cx="450" cy="350" r="15" fill="#ef4444" opacity="0.3"/>
+  <text x="460" y="335" font-family="Arial" font-size="12" fill="#b91c1c" font-weight="bold">현재 위치</text>
+  
+  <!-- 지도 설명 -->
+  <text x="220" y="500" font-family="Arial" font-size="12" fill="#374151">● 지하철역   🚌 버스정류장   ● 현재 위치</text>
+  
+  <!-- 군집 정보 요약 - 군집 3 정보로 변경 -->
+  <rect x="210" y="490" width="580" height="40" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="230" y="515" font-family="Arial" font-size="16" fill="#374151">군집 정보:</text>
+  <text x="310" y="515" font-family="Arial" font-size="14" fill="#6b7280">선릉역 군집 - 9월 특성: 오피스 직장인 증가 예상 (유동인구 28,500명/일)</text>
+  
+  <!-- 군집 선택 영역 - 군집 3이 선택된 상태로 변경 -->
+  <rect x="210" y="540" width="580" height="40" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="230" y="565" font-family="Arial" font-size="16" fill="#374151">군집 선택:</text>
+  
+  <rect x="320" y="545" width="100" height="30" rx="15" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="342" y="565" font-family="Arial" font-size="14" fill="#6b7280">군집 1</text>
+  
+  <rect x="430" y="545" width="100" height="30" rx="15" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="452" y="565" font-family="Arial" font-size="14" fill="#6b7280">군집 2</text>
+  
+  <rect x="540" y="545" width="100" height="30" rx="15" fill="#f59e0b"/>
+  <text x="562" y="565" font-family="Arial" font-size="14" fill="white">군집 3</text>
+  
+  <!-- 군집 데이터 영역 - 시간별 유동인구 - 군집 3으로 변경 -->
+  <rect x="210" y="590" width="275" height="200" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- 그래프 제목 변경 - 왼쪽 정렬 -->
+  <text x="225" y="615" font-family="Arial" font-size="16" fill="#111827" font-weight="bold">9월 시간별 유동인구 예측 (군집 3)</text>
+  
+  <!-- 시간별 유동인구 막대 그래프 - 선릉역 군집 패턴으로 변경 (주간 업무시간 중심) -->
+  <rect x="215" y="740" width="11" height="15" fill="#fcd34d"/>
+  <rect x="226" y="743" width="11" height="12" fill="#fcd34d"/>
+  <rect x="237" y="745" width="11" height="10" fill="#fcd34d"/>
+  <rect x="248" y="745" width="11" height="10" fill="#fcd34d"/>
+  <rect x="259" y="743" width="11" height="12" fill="#fcd34d"/>
+  <rect x="270" y="740" width="11" height="15" fill="#fcd34d"/>
+  <rect x="281" y="725" width="11" height="30" fill="#fcd34d"/>
+  <rect x="292" y="695" width="11" height="60" fill="#fcd34d"/>
+  <rect x="303" y="660" width="11" height="95" fill="#f59e0b"/>
+  <rect x="314" y="640" width="11" height="115" fill="#f59e0b"/>
+  <rect x="325" y="630" width="11" height="125" fill="#f59e0b"/>
+  <rect x="336" y="630" width="11" height="125" fill="#f59e0b"/>
+  <rect x="347" y="640" width="11" height="115" fill="#f59e0b"/>
+  <rect x="358" y="630" width="11" height="125" fill="#f59e0b"/>
+  <rect x="369" y="630" width="11" height="125" fill="#f59e0b"/>
+  <rect x="380" y="635" width="11" height="120" fill="#f59e0b"/>
+  <rect x="391" y="645" width="11" height="110" fill="#f59e0b"/>
+  <rect x="402" y="660" width="11" height="95" fill="#f59e0b"/>
+  <rect x="413" y="675" width="11" height="80" fill="#fcd34d"/>
+  <rect x="424" y="700" width="11" height="55" fill="#fcd34d"/>
+  <rect x="435" y="715" width="11" height="40" fill="#fcd34d"/>
+  <rect x="446" y="725" width="11" height="30" fill="#fcd34d"/>
+  <rect x="457" y="735" width="11" height="20" fill="#fcd34d"/>
+  <rect x="468" y="740" width="11" height="15" fill="#fcd34d"/>
+  
+  <!-- X축 레이블 -->
+  <text x="215" y="770" font-family="Arial" font-size="8" fill="#6b7280">00</text>
+  <text x="226" y="770" font-family="Arial" font-size="8" fill="#6b7280">01</text>
+  <text x="237" y="770" font-family="Arial" font-size="8" fill="#6b7280">02</text>
+  <text x="248" y="770" font-family="Arial" font-size="8" fill="#6b7280">03</text>
+  <text x="259" y="770" font-family="Arial" font-size="8" fill="#6b7280">04</text>
+  <text x="270" y="770" font-family="Arial" font-size="8" fill="#6b7280">05</text>
+  <text x="281" y="770" font-family="Arial" font-size="8" fill="#6b7280">06</text>
+  <text x="292" y="770" font-family="Arial" font-size="8" fill="#6b7280">07</text>
+  <text x="303" y="770" font-family="Arial" font-size="8" fill="#6b7280">08</text>
+  <text x="314" y="770" font-family="Arial" font-size="8" fill="#6b7280">09</text>
+  <text x="325" y="770" font-family="Arial" font-size="8" fill="#6b7280">10</text>
+  <text x="336" y="770" font-family="Arial" font-size="8" fill="#6b7280">11</text>
+  <text x="347" y="770" font-family="Arial" font-size="8" fill="#6b7280">12</text>
+  <text x="358" y="770" font-family="Arial" font-size="8" fill="#6b7280">13</text>
+  <text x="369" y="770" font-family="Arial" font-size="8" fill="#6b7280">14</text>
+  <text x="380" y="770" font-family="Arial" font-size="8" fill="#6b7280">15</text>
+  <text x="391" y="770" font-family="Arial" font-size="8" fill="#6b7280">16</text>
+  <text x="402" y="770" font-family="Arial" font-size="8" fill="#6b7280">17</text>
+  <text x="413" y="770" font-family="Arial" font-size="8" fill="#6b7280">18</text>
+  <text x="424" y="770" font-family="Arial" font-size="8" fill="#6b7280">19</text>
+  <text x="435" y="770" font-family="Arial" font-size="8" fill="#6b7280">20</text>
+  <text x="446" y="770" font-family="Arial" font-size="8" fill="#6b7280">21</text>
+  <text x="457" y="770" font-family="Arial" font-size="8" fill="#6b7280">22</text>
+  <text x="468" y="770" font-family="Arial" font-size="8" fill="#6b7280">23</text>
+  
+  <!-- 매출 데이터 영역 - 제목 변경 및 그래프 변경 -->
+  <rect x="515" y="590" width="275" height="200" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- 그래프 제목 수정: 군집 3으로 변경 - 왼쪽 정렬 -->
+  <text x="530" y="615" font-family="Arial" font-size="16" fill="#111827" font-weight="bold">9월 시간별 매출 예측 (군집 3)</text>
+  
+  <!-- 시간별 매출 막대 그래프 - 선릉역 지역 특성에 맞게 변경 (점심, 퇴근시간 매출 상승) -->
+  <rect x="520" y="735" width="11" height="20" fill="#fef3c7"/>
+  <rect x="531" y="740" width="11" height="15" fill="#fef3c7"/>
+  <rect x="542" y="743" width="11" height="12" fill="#fef3c7"/>
+  <rect x="553" y="743" width="11" height="12" fill="#fef3c7"/>
+  <rect x="564" y="740" width="11" height="15" fill="#fef3c7"/>
+  <rect x="575" y="735" width="11" height="20" fill="#fef3c7"/>
+  <rect x="586" y="730" width="11" height="25" fill="#fef3c7"/>
+  <rect x="597" y="720" width="11" height="35" fill="#fef3c7"/>
+  <rect x="608" y="710" width="11" height="45" fill="#fef3c7"/>
+  <rect x="619" y="700" width="11" height="55" fill="#fef3c7"/>
+  <rect x="630" y="670" width="11" height="85" fill="#fef3c7"/>
+  <rect x="641" y="650" width="11" height="105" fill="#f59e0b"/>
+  <rect x="652" y="630" width="11" height="125" fill="#f59e0b"/>
+  <rect x="663" y="640" width="11" height="115" fill="#f59e0b"/>
+  <rect x="674" y="670" width="11" height="85" fill="#fef3c7"/>
+  <rect x="685" y="650" width="11" height="105" fill="#f59e0b"/>
+  <rect x="696" y="640" width="11" height="115" fill="#f59e0b"/>
+  <rect x="707" y="660" width="11" height="95" fill="#f59e0b"/>
+  <rect x="718" y="680" width="11" height="75" fill="#fef3c7"/>
+  <rect x="729" y="700" width="11" height="55" fill="#fef3c7"/>
+  <rect x="740" y="720" width="11" height="35" fill="#fef3c7"/>
+  <rect x="751" y="730" width="11" height="25" fill="#fef3c7"/>
+  <rect x="762" y="735" width="11" height="20" fill="#fef3c7"/>
+  <rect x="773" y="740" width="11" height="15"
